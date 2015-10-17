@@ -12,6 +12,25 @@ namespace Paydate_Calculator;
 class Paydate_Calculator
 {
 
+
+    /**
+     * Federal Holidays
+     * https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/federal-holidays/
+     * 
+     * 01-01 Thursday,  January 1	 New Year’s Day
+     * 01-19 Monday,    January 19	 Birthday of Martin Luther King, Jr.
+     * 02-16 Monday,    February 16* Washington’s Birthday
+     * 05-25 Monday,    May 25	     Memorial Day
+     * 07-03 Friday,    July 3**	 Independence Day
+     * 09-07 Monday,    September 7	 Labor Day
+     * 10-12 Monday,    October 12	 Columbus Day
+     * 11-11 Wednesday, November 11	 Veterans Day
+     * 11-26 Thursday,  November 26	 Thanksgiving Day
+     * 12-25 Friday,    December 25	 Christmas Day
+     */
+
+
+
     /** This function determines the first available due date following the funding of a loan.
 
      * The paydate will be at least 10 days in the future from the $fund_day. The
